@@ -1,0 +1,146 @@
+{
+  "app": {
+    "description": "Nuxt Vuetify Demo Application",
+    "name": "App"
+  },
+  "common": {
+    "nav": {
+      "back": "Back"
+    }
+  },
+  "error": {
+    "heading": "Error",
+    "page_not_found": "Page not found"
+  },
+  "nav": {
+    "about": "About me",
+    "home": "Home"
+  },
+  "page": {
+    "about": {
+      "text": "Hello there! I'm a dedicated Software Fullstack Developer in my mid-30s, with a passion for crafting digital solutions. My journey in the automotive sector has given me a unique perspective on the intersection of technology and innovation. What truly gets my heart racing is Fullstack Development and the art of creating seamless user experiences with Vue.js. Whether it's diving into the backend or bringing beautiful interfaces to life."
+    },
+    "home": {
+      "item_1": {
+        "subtitle": "Powerful framework that simplifies web application development, enhancing developer productivity and website performance.",
+        "title": "Nuxt 3"
+      },
+      "item_2": {
+        "subtitle": "Popular Material Design component library for Vue.js that allows developers to easily create beautiful, responsive, and consistent user interfaces in their web applications.",
+        "title": "Vuetify 3"
+      },
+      "item_3": {
+        "subtitle": "vue-i18n is a localization library for Vue.js that simplifies the process of adding internationalization and multilingual support to web applications.",
+        "title": "vue-i18n"
+      },
+      "item_4": {
+        "subtitle": "ESLint is a static code analysis tool that helps identify and fix coding errors and maintain code consistency.",
+        "title": "ESLint"
+      },
+      "item_5": {
+        "subtitle": "Prettier is an opinionated code formatter that automatically formats code for consistent and aesthetically pleasing codebase.",
+        "title": "Prettier"
+      }
+    }
+  },
+  "$vuetify": {
+    "badge": "Badge",
+    "open": "Open",
+    "close": "Close",
+    "confirmEdit": {
+      "ok": "OK",
+      "cancel": "Cancel"
+    },
+    "dataIterator": {
+      "noResultsText": "No matching records found",
+      "loadingText": "Loading items..."
+    },
+    "dataTable": {
+      "itemsPerPageText": "Rows per page:",
+      "ariaLabel": {
+        "sortDescending": "Sorted descending.",
+        "sortAscending": "Sorted ascending.",
+        "sortNone": "Not sorted.",
+        "activateNone": "Activate to remove sorting.",
+        "activateDescending": "Activate to sort descending.",
+        "activateAscending": "Activate to sort ascending."
+      },
+      "sortBy": "Sort by"
+    },
+    "dataFooter": {
+      "itemsPerPageText": "Items per page:",
+      "itemsPerPageAll": "All",
+      "nextPage": "Next page",
+      "prevPage": "Previous page",
+      "firstPage": "First page",
+      "lastPage": "Last page",
+      "pageText": "{0}-{1} of {2}"
+    },
+    "dateRangeInput": {
+      "divider": "to"
+    },
+    "datePicker": {
+      "itemsSelected": "{0} selected",
+      "range": {
+        "title": "Select dates",
+        "header": "Enter dates"
+      },
+      "title": "Select date",
+      "header": "Enter date",
+      "input": {
+        "placeholder": "Enter date"
+      }
+    },
+    "noDataText": "No data available",
+    "carousel": {
+      "prev": "Previous visual",
+      "next": "Next visual",
+      "ariaLabel": {
+        "delimiter": "Carousel slide {0} of {1}"
+      }
+    },
+    "calendar": {
+      "moreEvents": "{0} more",
+      "today": "Today"
+    },
+    "input": {
+      "clear": "Clear {0}",
+      "prependAction": "{0} prepended action",
+      "appendAction": "{0} appended action",
+      "otp": "Please enter OTP character {0}"
+    },
+    "fileInput": {
+      "counter": "{0} files",
+      "counterSize": "{0} files ({1} in total)"
+    },
+    "timePicker": {
+      "am": "AM",
+      "pm": "PM"
+    },
+    "pagination": {
+      "ariaLabel": {
+        "root": "Pagination Navigation",
+        "next": "Next page",
+        "previous": "Previous page",
+        "page": "Go to page {0}",
+        "currentPage": "Page {0}, Current page",
+        "first": "First page",
+        "last": "Last page"
+      }
+    },
+    "stepper": {
+      "next": "Next",
+      "prev": "Previous"
+    },
+    "rating": {
+      "ariaLabel": {
+        "item": "Rating {0} of {1}"
+      }
+    },
+    "loading": "Loading...",
+    "infiniteScroll": {
+      "loadMore": "Load more",
+      "empty": "No more"
+    }
+  }
+}
