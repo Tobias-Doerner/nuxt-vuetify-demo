@@ -1,0 +1,146 @@
+{
+  "app": {
+    "description": "Nuxt Vuetify Demoanwendung",
+    "name": "App"
+  },
+  "common": {
+    "nav": {
+      "back": "Zurück"
+    }
+  },
+  "error": {
+    "heading": "Fehler",
+    "page_not_found": "Seite nicht gefunden"
+  },
+  "nav": {
+    "about": "Über mich",
+    "home": "Home"
+  },
+  "page": {
+    "about": {
+      "text": "Hallo zusammen! Ich bin ein passionierter Fullstack Entwickler, mit einer Leidenschaft für die Entwicklung digitaler Lösungen. Mein Weg in der Automobilbranche hat mir eine einzigartige Perspektive auf die Schnittmenge von Technologie und Innovation gegeben. Mein Herz schlägt für die Fullstack-Entwicklung und die Kunst, nahtlose Benutzererlebnisse mit Vue.js zu schaffen. Egal ob es darum geht, in das Backend einzutauchen oder schöne Interfaces zum Leben zu erwecken."
+    },
+    "home": {
+      "item_1": {
+        "subtitle": "Leistungsstarkes Framework, das die Entwicklung von Webanwendungen vereinfacht und die Produktivität der Entwickler sowie die Leistung der Website steigert.",
+        "title": "Nuxt 3"
+      },
+      "item_2": {
+        "subtitle": "Beliebte Material Design Komponentenbibliothek für Vue.js, die es Entwicklern ermöglicht, auf einfache Weise schöne, responsive und konsistente Benutzeroberflächen in ihren Webanwendungen zu erstellen.",
+        "title": "Vuetify 3"
+      },
+      "item_3": {
+        "subtitle": "vue-i18n ist eine Lokalisierungsbibliothek für Vue.js, die den Prozess des Hinzufügens von Internationalisierung und mehrsprachiger Unterstützung von Webanwendungen vereinfacht.",
+        "title": "vue-i18n"
+      },
+      "item_4": {
+        "subtitle": "ESLint ist ein statisches Code-Analyse-Tool, das bei der Identifizierung und Behebung von Programmierfehlern und der Einhaltung der Code-Konsistenz hilft.",
+        "title": "ESLint"
+      },
+      "item_5": {
+        "subtitle": "Prettier ist ein Code-Formatierer, der automatisch Code für eine konsistente und ästhetisch ansprechende Codebasis formatiert.",
+        "title": "Prettier"
+      }
+    }
+  },
+  "$vuetify": {
+    "badge": "Abzeichen",
+    "open": "Öffnen",
+    "close": "Schließen",
+    "confirmEdit": {
+      "ok": "OK",
+      "cancel": "Abbrechen"
+    },
+    "dataIterator": {
+      "noResultsText": "Keine Elemente gefunden",
+      "loadingText": "Lade Elemente..."
+    },
+    "dataTable": {
+      "itemsPerPageText": "Zeilen pro Seite:",
+      "ariaLabel": {
+        "sortDescending": "Absteigend sortiert.",
+        "sortAscending": "Aufsteigend sortiert.",
+        "sortNone": "Nicht sortiert.",
+        "activateNone": "Aktivieren um Sortierung zu entfernen.",
+        "activateDescending": "Aktivieren um absteigend zu sortieren.",
+        "activateAscending": "Aktivieren um aufsteigend zu sortieren."
+      },
+      "sortBy": "Sortiere nach"
+    },
+    "dataFooter": {
+      "itemsPerPageText": "Elemente pro Seite:",
+      "itemsPerPageAll": "Alle",
+      "nextPage": "Nächste Seite",
+      "prevPage": "Vorherige Seite",
+      "firstPage": "Erste Seite",
+      "lastPage": "Letzte Seite",
+      "pageText": "{0}-{1} von {2}"
+    },
+    "dateRangeInput": {
+      "divider": "bis"
+    },
+    "datePicker": {
+      "itemsSelected": "{0} selected",
+      "range": {
+        "title": "Daten auswählen",
+        "header": "Daten eingeben"
+      },
+      "title": "Datum auswählen",
+      "header": "Datum eingeben",
+      "input": {
+        "placeholder": "Datum eingeben"
+      }
+    },
+    "noDataText": "Keine Daten vorhanden",
+    "carousel": {
+      "prev": "Vorheriges Bild",
+      "next": "Nächstes Bild",
+      "ariaLabel": {
+        "delimiter": "Element {0} von {1}"
+      }
+    },
+    "calendar": {
+      "moreEvents": "{0} mehr",
+      "today": "Today"
+    },
+    "input": {
+      "clear": "{0} leeren",
+      "prependAction": "{0} vorangestellte Aktion",
+      "appendAction": "{0} angehängte Aktion",
+      "otp": "Bitte OTP-Zeichen {0} eingeben"
+    },
+    "fileInput": {
+      "counter": "{0} Dateien",
+      "counterSize": "{0} Dateien ({1} gesamt)"
+    },
+    "timePicker": {
+      "am": "AM",
+      "pm": "PM"
+    },
+    "pagination": {
+      "ariaLabel": {
+        "root": "Seitennavigation",
+        "next": "Nächste Seite",
+        "previous": "Vorherige Seite",
+        "page": "Gehe zu Seite {0}",
+        "currentPage": "Aktuelle Seite, Seite {0}",
+        "first": "Erste Seite",
+        "last": "Letzte Seite"
+      }
+    },
+    "stepper": {
+      "next": "Weiter",
+      "prev": "Zurück"
+    },
+    "rating": {
+      "ariaLabel": {
+        "item": "Bewertung {0} von {1}"
+      }
+    },
+    "loading": "Laden...",
+    "infiniteScroll": {
+      "loadMore": "Mehr laden",
+      "empty": "Nichts weiteres"
+    }
+  }
+}
