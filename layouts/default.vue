@@ -18,13 +18,13 @@ const leftDrawer = ref(true)
 
     <v-navigation-drawer v-model="leftDrawer">
       <v-list-item :title="$t('app.name')" :subtitle="$t('app.description')" />
-      <v-divider></v-divider>
+      <v-divider />
       <v-list-item :title="$t('nav.home')" to="/" />
       <v-list-item :title="$t('nav.about')" to="/about" />
     </v-navigation-drawer>
 
     <v-main>
-      <slot></slot>
+      <slot />
     </v-main>
 
     <v-footer app>

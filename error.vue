@@ -19,7 +19,9 @@ const handleError = () => clearError({ redirect: '/' })
         <v-card-title>{{ $t('error.page_not_found') }}</v-card-title>
         <v-card-text>{{ props.error.message }}</v-card-text>
         <v-card-actions>
-          <v-btn @click="handleError"> {{ $t('common.nav.back') }}</v-btn>
+          <v-btn @click="handleError">
+            {{ $t('common.nav.back') }}
+          </v-btn>
         </v-card-actions>
       </v-card>
 
@@ -27,7 +29,9 @@ const handleError = () => clearError({ redirect: '/' })
         <v-card-title>{{ $t('error.heading') }}</v-card-title>
         <v-card-text>{{ props.error.message }}</v-card-text>
         <v-card-actions>
-          <v-btn @click="handleError">{{ $t('common.nav.back') }}</v-btn>
+          <v-btn @click="handleError">
+            {{ $t('common.nav.back') }}
+          </v-btn>
         </v-card-actions>
       </v-card>
     </v-container>

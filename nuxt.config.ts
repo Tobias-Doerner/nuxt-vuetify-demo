@@ -2,13 +2,19 @@ import * as pkg from './package.json'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  compatibilityDate: '2024-07-04',
   css: ['@/assets/main.scss'],
   features: { inlineStyles: false },
-  modules: ['@nuxtjs/i18n', 'vuetify-nuxt-module', '@nuxtjs/eslint-module'],
+  modules: ['@nuxt/eslint', '@nuxtjs/i18n', 'vuetify-nuxt-module'],
   nitro: {
     compressPublicAssets: true,
   },
   ssr: true,
+  eslint: {
+    config: {
+      standalone: false,
+    },
+  },
   i18n: {
     defaultLocale: 'en',
     detectBrowserLanguage: {

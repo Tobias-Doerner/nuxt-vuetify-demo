@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { mdiMenuDown } from '@mdi/js'
+
 const { locale, locales, setLocale } = useI18n()
 
 const currentLocale = computed({

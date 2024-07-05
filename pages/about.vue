@@ -11,7 +11,9 @@ import { mdiInformation, mdiLinkedin, mdiTwitter } from '@mdi/js'
         :prepend-icon="mdiInformation"
       >
         <v-card-text>
-          <div class="ma-4 text-body-1">{{ $t('page.about.text') }}</div>
+          <div class="ma-4 text-body-1">
+            {{ $t('page.about.text') }}
+          </div>
         </v-card-text>
 
         <v-card-actions>
