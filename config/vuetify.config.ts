@@ -1,6 +1,6 @@
-import { defineVuetifyConfiguration } from 'vuetify-nuxt-module/custom-configuration'
 import { md2 } from 'vuetify/blueprints'
 import colors from 'vuetify/lib/util/colors.mjs'
+import { defineVuetifyConfiguration } from 'vuetify-nuxt-module/custom-configuration'
 
 export default defineVuetifyConfiguration({
   blueprint: md2,
